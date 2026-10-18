@@ -1,0 +1,11 @@
+node_modules
+.next
+out
+*.log
+.DS_Store
+.env*.local
+*.pdf
+*.zip
+tsconfig.tsbuildinfo
+/AGENTS.md
+/Финансовое образование для взрослых дизайн сайта курса.html
