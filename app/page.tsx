@@ -37,7 +37,7 @@ const faqs = [
   { question: "В каком формате проходит курс?", answer: "Занятия проходят офлайн." },
   { question: "Сколько длится каждое занятие?", answer: "Каждое занятие длится 2,5 часа." },
   { question: "Будут ли записи занятий?", answer: "Нет, записей занятий не будет." },
-  { question: "Сколько стоит участие и когда старт?", answer: "Стоимость — 24 500 сом. Оплата — 100% предоплата переводом или наличными. Дата начала: [ЗАМЕНИТЬ: ближайшая дата старта]." },
+  { question: "Сколько стоит участие и как оплатить?", answer: "Стоимость — 24 500 сом. Оплата — 100% предоплата переводом или наличными." },
 ];
 
 export default function HomePage() {
@@ -122,7 +122,6 @@ export default function HomePage() {
             <article><span>Длительность</span><strong>5 дней</strong></article>
             <article><span>Сколько длится каждое занятие</span><strong>2,5 часа</strong></article>
             <article><span>Стоимость</span><strong>24 500 сом. 100% предоплата переводом или наличными.</strong></article>
-            <article><span>Старт</span><strong>[ЗАМЕНИТЬ: дата начала курса]</strong></article>
             <article><span>Количество мест</span><strong>12</strong></article>
           </div>
         </div>
@@ -147,7 +146,7 @@ export default function HomePage() {
         <div className="section-wrap whatsapp-layout">
           <div className="application-copy">
             <div className="eyebrow">СЛЕДУЮЩИЙ ШАГ</div>
-            <h2>Хотите узнать стоимость, даты и условия участия?</h2>
+            <h2>Хотите узнать стоимость и условия участия?</h2>
             <p>Свяжитесь с нами, расскажем подробности и поможем записаться на обучение!</p>
             <a className="wa-btn" href={whatsappUrl} target="_blank" rel="noreferrer">
               <MessageCircle size={22} aria-hidden="true" />
