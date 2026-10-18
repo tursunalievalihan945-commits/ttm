@@ -147,8 +147,8 @@ export default function HomePage() {
         <div className="section-wrap whatsapp-layout">
           <div className="application-copy">
             <div className="eyebrow">СЛЕДУЮЩИЙ ШАГ</div>
-            <h2>Хотите узнать больше <span>о курсе?</span></h2>
-            <p>Напишите нам в WhatsApp — ответим на вопросы и расскажем подробности о курсе.</p>
+            <h2>Хотите узнать стоимость, даты и условия участия?</h2>
+            <p>Свяжитесь с нами, расскажем подробности и поможем записаться на обучение!</p>
             <a className="wa-btn" href={whatsappUrl} target="_blank" rel="noreferrer">
               <MessageCircle size={22} aria-hidden="true" />
               Написать в WhatsApp
