@@ -35,16 +35,11 @@ export const metadata: Metadata = {
   },
   openGraph: {
     url: siteUrl,
-    siteName: "financeweb.ssite",
-    title: "financeweb.ssite",
+    siteName: "Финансовое образование для взрослых",
+    title: "Финансовое образование для взрослых — Манапбаева Нураим Замирбековна",
     description: "Узнайте программу курса о деньгах, активах и финансовых решениях.",
     locale: "ru_RU",
     type: "website",
-  },
-  twitter: {
-    card: "summary",
-    title: "financeweb.ssite",
-    description: "Узнайте программу курса о деньгах, активах и финансовых решениях.",
   },
 };
 
